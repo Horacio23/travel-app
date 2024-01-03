@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { NAV_LINKS } from "@/constants"
-import Button from "./button"
+import Button from "./Button"
 
 const Navbar = () => {
   return (
@@ -22,7 +22,7 @@ const Navbar = () => {
                 title="Sign In"
                 icon="/user.svg"
                 variant="btn_dark_green"
-            ></Button>
+            />
         </div>
         <Image 
             src="menu.svg"
